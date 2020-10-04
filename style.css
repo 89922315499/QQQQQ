@@ -1,0 +1,269 @@
+/*
+Глобальные настройки html-документа
+*/
+
+html, body {
+	height: 100%;
+	min-width: 950px;
+	margin: 0;
+	padding: 0;
+}
+body {
+	background: #1b1b1b;
+	color: white;
+	display: flex;
+	flex-direction: column;
+	background-image: url(../res/bg.jpg);
+	background-size: cover; /*ФОН ЗАБЛОКИРОВАН ДЛЯ МАСШТАБА*/
+	background-attachment: fixed; /*ФОН ЗАБЛОКИРОВАН ДЛЯ ПРОКРУТКИ*/
+}
+.content, .footer {
+	box-sizing: border-box;
+	padding: 10px;
+	background: #d77373;
+	
+}
+
+/*
+Глобальные элементы
+*/
+
+
+
+.entry_field_value
+{
+	font-size: 14px;
+	font-famiLy: "Segoe UI", Arial, Helvetica, sans-serif;
+	box-shadow: 0 0 5px solid #e4e4e4;
+	border: 0;
+	border-left: 2px solid #cecece;
+	border-right: 2px solid #cecece;
+	border-radius: 0px;
+	box-sizing: border-box;
+	height: 35px;
+	width: 283. 333px;
+	padding: 10px;
+}
+
+.header {
+	background-color: #d37171;
+	visibility: visible;
+	box-shadow: 0 0 5px black;
+	position: fixed;
+	z-index: 1;
+	height: 50px;
+	width: 100%;
+	top: 0;
+	left: 0;
+	min-width: 1000px;
+}
+.p_header_image {												/* Размещение логотипа сайта в header */ 
+	z-index: 2;
+	padding: 10px 8px;
+}
+.content {														/* Родительский блок контента. Применяется на всех старницах */ 
+	position: relative;
+	flex-grow: 1;
+	min-width: 1500px;
+	margin: auto;
+	padding: 50px;
+	color: white;
+	opacity: 0.9;
+}
+
+
+
+.p_header {														/* Блок заголовок страницы в content */
+	width: auto;
+	margin: 0 auto;
+	padding: 5px;
+}
+.p_card_errors {													/* Карточка вывода ошибок */
+	color: white;
+	background-color: red;
+	box-shadow: 0 2px 7px #e4e4e4;
+	position: fixed;
+	z-index: 15;
+	box-sizing: border-box;
+	border-radius: 5px;
+	height: 30px;
+	width: 300px;
+	padding: 2px 10px;
+	top: 60px;
+	left: 10px;
+}
+.p_card_successful {													/* Карточка вывода ошибок */
+	color: white;
+	background-color: green;
+	box-shadow: 0 2px 7px #e4e4e4;
+	position: fixed;
+	z-index: 15;
+	box-sizing: border-box;
+	border-radius: 5px;
+	height: 30px;
+	width: 300px;
+	padding: 2px 10px;
+	top: 60px;
+	left: 10px;
+}
+.p_card {														/* Карточка вертикального меню/сортировки/поиска/выборки */
+	box-shadow: 0 0 5px;
+	margin-bottom: 20px;
+	box-sizing: border-box;
+	border-radius: 5px;
+	margin: 0 auto;
+	width: 560px;
+	padding: 2px 10px;
+}
+.p_card_content {												/* Карточка основного контента */
+	position: relative;
+	box-shadow: 0 0 5px;
+	box-sizing: border-box;
+	border-radius: 5px;
+	margin: 0 auto;
+	min-height: 50px;
+	width: 560px;
+	padding: 20px 10px;
+}
+.p_card_display_db {
+	position: relative;
+	box-shadow: 0 2px 7px #e4e4e4;
+	box-sizing: border-box;
+	border-radius: 5px;
+	margin: 0 auto 20px auto;
+	min-height: 50px;
+	width: 560px;
+	padding: 2px 10px;
+}
+.p_card_horizontal {														/* Карточка горизонтального меню/сортировки/поиска/выборки */
+	box-shadow: 0 0 5px black;
+	box-sizing: border-box;
+	border-radius: 5px;
+	margin: 0 auto 20px auto;
+	width: 880px;
+	padding: 2px 10px;
+	background-color: #F08080;
+}
+.p_card_horizontal_content {												/* Карточка основного контента */
+	position: relative;
+	box-shadow: 0 2px 7px #e4e4e4;
+	box-sizing: border-box;
+	border-radius: 5px;
+	margin: 0 auto 20px auto;
+	min-height: 50px;
+	width: 880px;
+	padding: 2px 10px;
+}
+.p_card_full_size {													/* Карточка авторизвации/ргеистрации */
+	/*box-shadow: 0 0px 7px black;*/
+	box-sizing: border-box;
+	border-radius: 15px;
+	margin: 5px auto;
+	min-height: 150px;
+	width: 580px;
+	padding: 2px 2px;
+	/*background: #F08080;*/
+}
+
+.p_card_content_time {											/* Дочерний элемент .p_card_content. Ячейка таблицы с датами */
+	color: black;
+	width: 100px;
+}
+.p_card_content_time_work {										/* Дочерний элемент .p_card_content. Ячейка таблицы с указанием рабочего времени */ 
+	color: white;
+	background-color: #6e9bb7;
+	text-align: center;
+	border-radius: 10px;	
+	width: 110px;
+}
+.p_card_content_time_pass {										/* Дочерний элемент .p_card_content. Ячейка таблицы с указанием времени перерыва */ 
+	color: black;
+	background-color: #a1bfd1;
+	text-align: center;
+	border-radius: 10px;	
+	width: 110px;
+}
+.p_card_content_time_output {									/* Дочерний элемент .p_card_content. Ячейка таблицы с выходным днём*/ 
+	color: white;
+	background-color: #435869;
+	text-align: center;
+	border-radius: 10px;	
+}
+
+
+
+.entry_field_search {
+	font-size: 14px;
+	font-family: "Segoe UI", Arial, Helvetica, sans-serif;
+	box-shadow: 0 0 5px #e4e4e4;
+	border: 0;
+	border-radius: 5px;
+	box-sizing: border-box;
+	height: 35px;
+	width: 280px;
+	padding: 10px;
+}
+.entry_field_value {
+	font-size: 14px;
+	font-family: "Segoe UI", Arial, Helvetica, sans-serif;
+	box-shadow: 0 0 2px white;
+	border-bottom: 1px solid black;
+	border-radius: 5px;
+	box-sizing: border-box;
+	height: 35px;
+	width: 265px;
+	padding: 10px;
+	background: white;
+	color: black;
+}
+
+
+
+.btn_interface {
+	color: black;
+	font-size: 14px;
+	font-family: "Segoe UI", Arial, Helvetica, sans-serif;
+	background-color: white;
+	text-decoration: none;
+	box-shadow: 0 2px 5px black;
+	border: 0;
+	border-radius: 5px;
+	box-sizing: border-box;
+	height: 30px;
+	margin: 10px auto;
+}
+.btn_drop {
+	color: white;
+	font-size: 14px;
+	font-family: "Segoe UI", Arial, Helvetica, sans-serif;
+	background-color: #cf391e;
+	text-decoration: none;
+	box-shadow: 0 2px 5px black;
+	border: 0;
+	border-radius: 5px;
+	box-sizing: border-box;
+	height: 30px;
+	margin: 10px auto;
+}
+.btn_change, .edit_change {
+	color: black;
+	font-size: 14px;
+	font-family: "Segoe UI", Arial, Helvetica, sans-serif;
+	background-color: white;
+	text-decoration: none;
+	box-shadow: 0 2px 5px black;
+	border: 0;
+	border-radius: 5px;
+	box-sizing: border-box;
+	height: 30px;
+	margin: 10px auto;
+}
+
+
+
+.tabs_items {													/* Дочерний элемент .p_card_content. Табулы */
+	display: none;
+}
+.tabs_items:target {											/* Открытое состояние табулы */ 
+	display: block;
+}

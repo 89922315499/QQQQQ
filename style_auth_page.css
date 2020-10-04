@@ -1,0 +1,52 @@
+.form_auth {
+	font-family: "Segoe UI", Arial, Helvetica, sans-serif;
+	position: relative;
+	margin: 0 auto;
+}
+.entry_field_auth {
+	font-size: 14px;
+	font-family: "Segoe UI", Arial, Helvetica, sans-serif;
+	box-shadow: 0 0 5px black;
+	border: 0;
+	border-radius: 5px;
+	box-sizing: border-box;
+	height: 35px;
+	width: 400px;
+	margin: 0 0 20px;
+	padding: 10px;
+	background: #1b1b1b;
+	margin: 10px 16%;
+	color: white;
+}
+.btn_auth {
+	margin-left: 55%;
+	margin-top: 20px;
+	color: black;
+	font-size: 14px;
+	font-family: "Segoe UI", Arial, Helvetica, sans-serif;
+	background-color: white;
+	text-decoration: none;
+	box-shadow: 0 2px 5px black;
+	border: 0;
+	border-radius: 5px;
+	box-sizing: border-box;
+	float: left;
+	height: 40px;
+	padding: 10px;
+}
+.btn_register {
+	color: #171717;
+	margin-top: -40px;
+	font-size: 14px;
+	font-family: "Segoe UI", Arial, Helvetica, sans-serif;
+	background-color: white;
+	text-decoration: none;
+	box-shadow: 0 2px 5px black;
+	border: 0;
+	border-radius: 5px;
+	box-sizing: border-box;
+	float: left;
+	height: 40px;
+	margin-left: 20%;
+	padding: 10px;
+}

@@ -1,0 +1,110 @@
+.hr_navigate ul {                                               /* Настройка меню навигации header */
+	position: fixed;
+	font-size: 16px;
+	list-style-type: none;
+	overflow: hidden;
+	margin-top: 0;
+	padding: 0;
+	top: 0;
+	left: 50px;
+}
+.hr_navigate li {                                               /* Настройка обтекания элементов списка ссылок по левой стороне */
+	float: left;
+}
+.hr_navigate li a {                                             /* Настройка внешнего вида гипер-ссылок */
+	color: black;
+	text-align: center;
+	text-decoration: none;
+	display: block;
+	box-sizing: border-box;
+	height: 50px;
+	width: 150px;
+	padding: 15px;
+	background-color: white;
+}
+
+
+.hr_navigate li a:hover {                                       /* *при наведении мыши */
+	border-bottom: 2px solid #A9A9A9;
+}
+
+
+
+.p_card_navigate ul {                                           /* Настройка меню навигации header */
+	position: relative;
+	font-size: 16px;
+	list-style-type: none;
+	overflow: hidden;
+	width: 300px;
+	padding: 0;
+}
+.p_card_navigate li {                                           /* Настройка обтекания элементов списка ссылок по левой стороне */
+	float: left;
+}
+.p_card_navigate li a {                                         /* Настройка внешнего вида гипер-ссылок */
+	position: relative;
+	color: white;
+	text-align: left;
+	text-decoration: none;
+	display: block;
+	box-sizing: border-box;
+	height: 40px;
+	width: 300px;
+
+	
+}
+.p_card_navigate li a img {                                     /* Иконка */
+	position: absolute;
+}
+.p_card_navigate li a p {                                       /* Текст */ 
+	position: absolute;
+	top: -5px;
+	margin-left: 35px;
+}
+.p_card_navigate li a:hover {                                   /* *при наведении мыши */
+	border-left: 2px solid white;
+	padding-left: 8px;
+}
+
+
+
+.p_card_horizontal_navigate ul {                                               /* Настройка меню навигации header */
+	position: relative;
+	font-size: 16px;
+	list-style-type: none;
+	overflow: hidden;
+	width: 880px;
+	margin-left: -10px;
+	padding: 0;
+}
+.p_card_horizontal_navigate li {                                               /* Настройка обтекания элементов списка ссылок по левой стороне */
+	float: left;
+	background: white;
+	margin: 2px;
+	max-width: 216px;
+}
+.p_card_horizontal_navigate li a {                                             /* Настройка внешнего вида гипер-ссылок */
+	position: relative;
+	
+	text-decoration: none;
+	display: block;
+	height: 40px;
+	width: 220px;
+	/*padding: 15px auto;*/
+}
+
+.p_card_navigate li a img {                                 				    /* Иконка */
+	position: absolute;
+}
+.p_card_horizontal_navigate li a p {                                       /* Текст */ 
+	color: black;
+	text-align: center;
+	margin-left: -10px;
+}
+.p_card_horizontal_navigate li a:hover {                                       /* *при наведении мыши */
+	border-bottom: 2px solid #A9A9A9;;
+}
+.p_card_navigate ul li a p
+{
+	margin-left: 0; 
+}

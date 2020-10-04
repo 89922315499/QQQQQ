@@ -1,0 +1,47 @@
+/*
+Глобальные настройки html-документа
+*/
+
+html, body {
+	font-family: "Segoe UI", Arial, Helvetica, sans-serif;
+	font-size: 15px;
+}
+
+
+
+.p_header_page {												/* Настройки текста блока заголовка страницы */
+	color: white;
+	font-size: 36px;
+	text-align: center;
+	margin: 5px auto;
+}
+.p_card_header {												/* Настройка текста блока заголовка карточек. Используется гобально */
+	color: white;
+	font-size: 18px;
+	margin: 10px auto;
+}
+.p_card_horizontal_header {												/* Настройка текста блока заголовка горизонтальных карточек. Используется гобально */
+	color: white;
+	font-size: 18px;
+	text-align: center;
+	margin: 10px auto;
+}
+.p_card_auth_header {											/* Настройка текста блока заголовка карточки авторизации/регистрации. */ 
+	color: white;
+	font-size: 18px;
+	text-align: center;
+	margin: 10px auto;
+}
+.p_card p {														/* Настройа текста карточек. Используется глобально */
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	color: white;
+}
+.p_card a {		
+	color: white;												/* Настройка гипер-ссылок карточек. Используется глобально */
+	font-size: 15px;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}

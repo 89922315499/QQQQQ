@@ -1,0 +1,14 @@
+/*
+Глобальные элементы.
+Распределение сайд-бара и блока контента
+*/
+
+.p_left_panel {
+	position: relative;
+	float: left;
+}
+.p_right_panel {
+	position: relative;
+	float: right;
+	max-height: 950px;
+}
